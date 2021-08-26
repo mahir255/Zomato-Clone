@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Global */
-
 body {
   font-family: "Merriweather", sans-serif;
   background-color: #ebf2ff;
@@ -28,8 +26,6 @@ section {
   margin: 4rem 0;
 }
 
-/* Custom */
-
 .container {
   width: 100%;
   padding-right: 15px;
@@ -44,6 +40,7 @@ section {
 
 .navbar {
   position: sticky;
+  width: 100%;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -106,7 +103,6 @@ section {
 
 .button__primary:hover {
   background-position: right center;
-  /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
